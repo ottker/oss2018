@@ -12,7 +12,7 @@
 - [11. April 2018: Hyperledger](#hyperledger) *(pluettmann)*
 - [18. April 2018: OpenSSL](#openssl) *(dkopatz)*
 - [18. April 2018: Let's Encrypt/certbot/ACME](#certbot) *(tillz)*
-- [18. April 2018: FFmpeg](http://de.wikipedia.org/wiki/ffmpeg) *(ottker)*
+- [18. April 2018: FFmpeg](#ffmpeg) *(ottker)*
 - [18. April 2018: ?](#)
 - [18. April 2018: ?](#)
 - [18. April 2018: ?](#)
@@ -85,6 +85,17 @@ Die dort entstandenen Blockchains sollen genutzt werden für das Finanzsystem (B
 
 - Lizenz: Apache License 2.0
 - Codeverwaltung: [Github](https://github.com/hyperledger)
+
+FFmpeg
+------
+
+**FFmpeg** ist ein Multimediaframework. Es beinhaltet die Endanwendertools ffmpeg, ffplay und ffprobe und diverse Bibliotheken zum Entwickeln anderer Software. Unter anderem libavcodec, die mehr als 80 Audio- & Videocodecs implementiert.
+
+**ffmpeg** ist ein Kommandozeilentool und ermöglicht das einfache Konvertieren von Video- & Audiomaterial. Dabei können diverse Codecs (aus libavcodec) decodiert und encodiert werden. Außerdem lassen sich die verschiedenen Streams in viele Containerformate (.mp4, .avi etc.) verpacken. Dabei wird Wert auf eine einfache Handhabung und gleichzeitig hohe Konfigurierbarkeit der Ergebnisdatei gelegt.
+
+- Lizenz: [LGPL 2.1 / GPL 2.0](https://ffmpeg.org/legal.html) (je nach Konfiguration)
+- Codeverwaltung: [git (selbst gehostet)](https://git.ffmpeg.org/ffmpeg.git) ([Github Mirror](https://github.com/FFmpeg/FFmpeg))
+- Issue-Tracker: [Trac (selbst gehostet)](https://trac.ffmpeg.org)
 
 certbot
 -----------
